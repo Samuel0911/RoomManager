@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite">
+   <test name="Sample test">
+    <classes>
+      <class name="org.roommanager.testng.CreateLocationTestng" />
+      
+    </classes>
+    
+  </test>
+  <test name="Sample test1">
+    <classes>
+      <class name="org.roommanager.testng.CreateResourceTestng" />
+      
+    </classes>
+    
+  </test>
+  <test name="Sample test2">
+    <classes>
+      <class name="org.roommanager.testng.UpdateRoomTestng" />
+      
+    </classes>
+    
+  </test>
+  
+   <test name="Sample test3">
+    <classes>
+      <class name="org.roommanager.testng.MessageDeleteLocationTestng" />
+      
+    </classes>
+    
+  </test>
+  
+   <test name="Sample test4">
+    <classes>
+      <class name="org.roommanager.testng.DisableRoomTestng" />
+      
+    </classes>
+    
+  </test>
+</suite>    
