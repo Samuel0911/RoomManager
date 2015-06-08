@@ -32,6 +32,7 @@ public class DisableRoomTestng {
   @Test (priority=4)
   public void testDisableARoom() throws Exception {
     console.log("estamos haciendo una prueba");
+    console.log("estamos haciendo");
     driver.get(baseUrl + "/admin/#/login");
     driver.findElement(By.xpath("//button")).click();
     driver.findElement(By.xpath("//button")).click();
